@@ -1,0 +1,16 @@
+{
+  "name": "boot-ipl-demo",
+  "version": "1.0.0",
+  "description": "IPL Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahid Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1"
+  }
+}
