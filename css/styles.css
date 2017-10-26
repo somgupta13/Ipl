@@ -50,9 +50,9 @@ body {
 
 footer {
   color: #ccc;
-  background-color: #333;
+  background-color: #192a60;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -61,10 +61,11 @@ aside {
   background-color: #f8f8f8;
   padding: 20px;
   text-align: center;
+  vertical-align: top;
 }
 
 article {
-  padding-bottom: 40px; 
+  padding: 40px; 
 }
 article img {
   width: 100%;
@@ -92,8 +93,36 @@ article img {
 }
 
 .sports-icon-list img {
-  max-width: 60px;
-  max-height: 70px;
+  max-width: 80px;
+  max-height: 100px;
 }
 
 
+.sports-icon-list img:hover{
+  border: 2px solid #ccc;
+  box-shadow: 4px 4px 6px #777;
+}
+.badge{
+  font-size:10px;
+}
+.badge-success{
+  background-color: #269528
+}
+.badge-danger{
+  background-color: #ed0e2e;
+}
+.sports-icon-list table{
+  font-size: 10px;
+  background-color: lightgray;
+  color:#000;
+}
+.sports-icon-list th{
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+}
+table caption{
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
