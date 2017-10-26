@@ -1,1 +1,1 @@
-// JS code for Demo
+$(#myCarousel).carousel();
