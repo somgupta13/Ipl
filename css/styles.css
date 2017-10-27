@@ -126,3 +126,15 @@ table caption{
   font-size: 14px;
   text-align: center;
 }
+.carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 80px;
+}
+ .carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 80px;
+}
